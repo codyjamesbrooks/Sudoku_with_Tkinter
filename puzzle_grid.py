@@ -136,6 +136,40 @@ class PuzzleGrid:
 		self.local8 = [self.puzzle[i][j] for i in range(6, 9) for j in range(3, 6)]
 		self.local9 = [self.puzzle[i][j] for i in range(6, 9) for j in range(6, 9)]
 
+		self.rows_by_row_int = {
+								0: puzzle[0],
+								1: puzzle[1],
+								2: puzzle[2],
+								3: puzzle[3],
+								4: puzzle[4],
+								5: puzzle[5],
+								6: puzzle[6],
+								7: puzzle[7],
+								8: puzzle[8]
+								}
+		self.cols_by_col_int = {
+								0: [row[0] for row in puzzle],
+								1: [row[1] for row in puzzle],
+								2: [row[2] for row in puzzle],
+								3: [row[3] for row in puzzle],
+								4: [row[4] for row in puzzle],
+								5: [row[5] for row in puzzle],
+								6: [row[6] for row in puzzle],
+								7: [row[7] for row in puzzle],
+								8: [row[8] for row in puzzle]								
+								}
+		self.localnum_by_int = {
+								1:[puzzle[i][j] for i in range(3) for j in range(3)]
+								2:[puzzle[i][j] for i in range(3) for j in range(3, 6)]
+								3:[puzzle[i][j] for i in range(3) for j in range(6, 9)]
+								4:[puzzle[i][j] for i in range(3, 6) for j in range(3)]
+								5:[puzzle[i][j] for i in range(3, 6) for j in range(3, 6)]
+								6:[puzzle[i][j] for i in range(3, 6) for j in range(6, 9)]
+								7:[puzzle[i][j] for i in range(6, 9) for j in range(3)]
+								8:[puzzle[i][j] for i in range(6, 9) for j in range(3, 6)]
+								9:[puzzle[i][j] for i in range(6, 9) for j in range(6, 9)]
+								}
+
 
 puzzle1 = [[8, 7, 0, 3, 4, 5, 0, 0, 6], 
 		[0, 0, 9, 0, 0, 6, 0, 0, 1],
@@ -190,3 +224,5 @@ grid = PuzzleGrid(puzzle1)
 # print(grid.local7)
 # print(grid.local8)
 # print(grid.local9)
+print(grid.rows_by_row_int.keys())
+print(grid.rows_by_row_int.values())
