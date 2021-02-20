@@ -25,7 +25,12 @@ def deactivate_and_style_given_numbers():
 				button.config(state=tk.DISABLED)
 				button.config(bg='white')
 				button.config(disabledforeground='black')
+			else: 
+				button.config(relief=tk.RAISED)
+				button.config(bg="SystemButtonFace")
+				button.config(state=tk.ACTIVE)
 	start_game["state"] = tk.DISABLED
+	reset_game["state"] = tk.ACTIVE
 
 def initate_starting_numbers(puzzle):
 	for i in range(3):
@@ -35,13 +40,39 @@ def initate_starting_numbers(puzzle):
 			button.config(text=puzzle[i][j])
 	deactivate_and_style_given_numbers()
 
+def check_entry(button, i, j):
+	if button['text'] == solved_puzzle[i][j]:
+		button['bg'] = '#90EE90'
+	else: 
+		button['bg'] = "#FF8B8B"
 
-def assign_number_button_menu(button):
+def ensure_number_was_entered(button, i, j):
+	# If button menu was closed and no number was entered, this function will reset the selected
+	# buttons formatting
+	if button['text'] == 0:
+		update_button.config(relief=tk.ACTIVE)
+		update_button.config(bg="SystemButtonFace")
+
+def assign_number_button_menu(button, i, j):
 	button_menu = tk.Toplevel()
 	button_menu.title("Select the Squares Value")
 
+	# Dynamically position number menu to left or right of game grid
+	x = root.winfo_x()
+	screen_width = root.winfo_screenwidth()
+	if screen_width - x >= screen_width / 2: # More space on right side
+		print("move right", x, screen_width, screen_width-x)
+		button_menu.geometry("+%d+%d" % (x + 195, root.winfo_y()))
+	else: # More space on left side
+		print("move left", x, screen_width, x-screen_width)
+		button_menu.geometry("+%d+%d" % (x - 190, root.winfo_y()))
+
+	button_menu.grab_set()
+
 	def number_input(button, number):
 		button.config(text=number)
+		button.config(relief=tk.RAISED)
+		button.config(bg='#FFFFA2')
 		button_menu.destroy()
 
 	button_menu_lbl = tk.Label(button_menu, text="Click Number to Assign")
@@ -66,10 +97,8 @@ def assign_number_button_menu(button):
 	num8.grid(row=2, column=1)
 	button_menu_lbl.grid(row=3, column=0, columnspan=3)
 
-def check_entry(variable, indx, mode):
-	print("IN")
+def check_puzzle(variable, indx, mode):
 	active_buttons_and_pos = [(list_of_buttons[i][j], i, j) for i in range(3) for j in range(3) if list_of_buttons[i][j]['state'] != tk.DISABLED]
-
 	if validate.get() == 1:
 		for button in active_buttons_and_pos:
 			i, j = button[1], button[2]
@@ -82,23 +111,29 @@ def check_entry(variable, indx, mode):
 	else: 
 		for button in active_buttons_and_pos:
 			button[0]['bg'] = "SystemButtonFace"
-
+	validate.set(0)
 
 def assign_number(i, j):
 	update_button = list_of_buttons[i][j]
+	update_button.config(relief=tk.SUNKEN)
+	update_button.config(bg='grey')
+	assign_number_button_menu(update_button, i, j)
 
-	assign_number_button_menu(update_button)
+def reset():
+	initate_starting_numbers(puzzle)
+
+
 
 # Create Buttons
-button00 = tk.Button(root, text="X", command=lambda: assign_number(0, 0), height=3, width=7)
-button01 = tk.Button(root, text="X", command=lambda: assign_number(0, 1), height=3, width=7)
-button02 = tk.Button(root, text="X", command=lambda: assign_number(0, 2), height=3, width=7)
-button10 = tk.Button(root, text="X", command=lambda: assign_number(1, 0), height=3, width=7)
-button11 = tk.Button(root, text="X", command=lambda: assign_number(1, 1), height=3, width=7)
-button12 = tk.Button(root, text="X", command=lambda: assign_number(1, 2), height=3, width=7)
-button20 = tk.Button(root, text="X", command=lambda: assign_number(2, 0), height=3, width=7)
-button21 = tk.Button(root, text="X", command=lambda: assign_number(2, 1), height=3, width=7)
-button22 = tk.Button(root, text="X", command=lambda: assign_number(2, 2), height=3, width=7)
+button00 = tk.Button(root, text="X", command=lambda: assign_number(0, 0), height=3, width=7, state=tk.DISABLED)
+button01 = tk.Button(root, text="X", command=lambda: assign_number(0, 1), height=3, width=7, state=tk.DISABLED)
+button02 = tk.Button(root, text="X", command=lambda: assign_number(0, 2), height=3, width=7, state=tk.DISABLED)
+button10 = tk.Button(root, text="X", command=lambda: assign_number(1, 0), height=3, width=7, state=tk.DISABLED)
+button11 = tk.Button(root, text="X", command=lambda: assign_number(1, 1), height=3, width=7, state=tk.DISABLED)
+button12 = tk.Button(root, text="X", command=lambda: assign_number(1, 2), height=3, width=7, state=tk.DISABLED)
+button20 = tk.Button(root, text="X", command=lambda: assign_number(2, 0), height=3, width=7, state=tk.DISABLED)
+button21 = tk.Button(root, text="X", command=lambda: assign_number(2, 1), height=3, width=7, state=tk.DISABLED)
+button22 = tk.Button(root, text="X", command=lambda: assign_number(2, 2), height=3, width=7, state=tk.DISABLED)
 # Place Buttons on grid
 button00.grid(row=0, column=0)
 button01.grid(row=0, column=1)
@@ -116,12 +151,15 @@ list_of_buttons = [[button00, button01, button02],
 					[button20, button21, button22]]
 
 validate = tk.IntVar()
-validate.trace_add('write', check_entry)
+validate.trace_add('write', check_puzzle)
 validate_entry = tk.Checkbutton(root, text="Validate Entries", variable=validate)
-validate_entry.grid(row=4, column=0, pady=5)
+validate_entry.grid(row=4, column=0, columnspan=3, pady=5)
 
 start_game = tk.Button(root, text="Clik to Load Puzzle", command=lambda: initate_starting_numbers(puzzle))
-start_game.grid(row=3, column=0 , pady=5)
+start_game.grid(row=3, column=0, columnspan=3, pady=5)
+
+reset_game = tk.Button(root, text="Reset Game", command=reset, state=tk.DISABLED)
+reset_game.grid(row=5, column=0, columnspan=3, pady=5)
 
 root.mainloop()
 

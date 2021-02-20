@@ -1,0 +1,969 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"S",
+				"SystemButtonFace"
+			],
+			[
+				"s",
+				"screen_width"
+			],
+			[
+				"button_",
+				"button_menu"
+			],
+			[
+				"va",
+				"validate"
+			],
+			[
+				"check",
+				"check_entry"
+			],
+			[
+				"chec",
+				"check_entry"
+			],
+			[
+				"reset",
+				"reset_game"
+			],
+			[
+				"cal",
+				"calendar"
+			],
+			[
+				"month",
+				"month_number"
+			],
+			[
+				"pad",
+				"pady"
+			],
+			[
+				"row",
+				"row_of_buttons"
+			],
+			[
+				"number",
+				"number_input"
+			],
+			[
+				"ass",
+				"assign_number_button_menu"
+			],
+			[
+				"button",
+				"button_menu"
+			],
+			[
+				"list",
+				"list_of_buttons"
+			],
+			[
+				"Button",
+				"Button_update"
+			],
+			[
+				"quer",
+				"query_label"
+			],
+			[
+				"print",
+				"print_records"
+			],
+			[
+				"query",
+				"query_button"
+			],
+			[
+				"data",
+				"database"
+			],
+			[
+				"l",
+				"l_name"
+			],
+			[
+				"f",
+				"f_name"
+			],
+			[
+				"submit",
+				"submit_button"
+			],
+			[
+				"my",
+				"my_label"
+			],
+			[
+				"frame",
+				"frame1"
+			],
+			[
+				"var",
+				"var2"
+			],
+			[
+				"show",
+				"show_string"
+			],
+			[
+				"vert",
+				"vert_label"
+			],
+			[
+				"pack",
+				"pack_forget"
+			],
+			[
+				"ver",
+				"vert_label"
+			],
+			[
+				"game",
+				"game_frame"
+			],
+			[
+				"grid",
+				"grid_frame"
+			],
+			[
+				"menu",
+				"menu_frame"
+			],
+			[
+				"opening",
+				"opening_frame"
+			],
+			[
+				"get",
+				"get_difficulty"
+			],
+			[
+				"windo",
+				"window_height"
+			],
+			[
+				"window",
+				"window_height"
+			],
+			[
+				"Im",
+				"ImageTk"
+			],
+			[
+				"Image",
+				"ImageTk"
+			],
+			[
+				"Radio",
+				"Radiobutton"
+			],
+			[
+				"column",
+				"columnspan"
+			],
+			[
+				"back",
+				"back_button"
+			],
+			[
+				"new",
+				"new_height"
+			],
+			[
+				"n",
+				"new_width"
+			],
+			[
+				"my_",
+				"my_img1"
+			],
+			[
+				"del",
+				"delete"
+			],
+			[
+				"divide",
+				"divide_function"
+			],
+			[
+				"se",
+				"second_number"
+			],
+			[
+				"in",
+				"insert"
+			],
+			[
+				"clac",
+				"calc_screen"
+			],
+			[
+				"current",
+				"current_number"
+			],
+			[
+				"curren",
+				"current_number"
+			],
+			[
+				"curr",
+				"current_number"
+			],
+			[
+				"recipr",
+				"reciprocal_fun"
+			],
+			[
+				"int",
+				"int_or_float"
+			],
+			[
+				"calc",
+				"calc_screen"
+			],
+			[
+				"first",
+				"first_number"
+			],
+			[
+				"cla",
+				"calc_output"
+			],
+			[
+				"col",
+				"columnspan"
+			],
+			[
+				"status",
+				"status_code"
+			],
+			[
+				"Sim",
+				"SimpleTestCase"
+			],
+			[
+				"tie",
+				"tie_visiual"
+			],
+			[
+				"de",
+				"deck_cards"
+			],
+			[
+				"cpu",
+				"cpu_card1"
+			],
+			[
+				"pla",
+				"player_card1"
+			],
+			[
+				"player",
+				"player_rank"
+			],
+			[
+				"lay",
+				"lay_down_cards"
+			],
+			[
+				"gam",
+				"game_loop"
+			],
+			[
+				"play",
+				"player_score"
+			],
+			[
+				"player_",
+				"player_score"
+			],
+			[
+				"pl",
+				"player_card"
+			],
+			[
+				"c",
+				"cpu_card"
+			],
+			[
+				"cp",
+				"cpu_card"
+			],
+			[
+				"hand",
+				"hand_value"
+			],
+			[
+				"re",
+				"relevent_card_values"
+			],
+			[
+				"war",
+				"war_round_visiual"
+			],
+			[
+				"shuff",
+				"shuffled_deck"
+			],
+			[
+				"deck",
+				"deck_of_cards"
+			],
+			[
+				"list-st",
+				"list-style-type\tproperty"
+			],
+			[
+				"text-",
+				"text-align\tproperty"
+			],
+			[
+				"nav",
+				"navbar-brand"
+			],
+			[
+				"get_",
+				"test_get_absolute_url"
+			],
+			[
+				"st",
+				"status_code"
+			],
+			[
+				"Blo",
+				"BlogUpdateView"
+			],
+			[
+				"a",
+				"assertEqual"
+			],
+			[
+				"Mad",
+				"Madlibs"
+			],
+			[
+				"p",
+				"play_again"
+			],
+			[
+				"user",
+				"user_story"
+			],
+			[
+				"user_",
+				"user_inputs"
+			],
+			[
+				"fill",
+				"fill_in_blanks"
+			],
+			[
+				"an",
+				"an_awkward_encounter"
+			],
+			[
+				"fi",
+				"fill_in_blanks"
+			],
+			[
+				"di",
+				"display_board"
+			],
+			[
+				"pizza",
+				"pizza_id"
+			],
+			[
+				"topic",
+				"topic_id"
+			],
+			[
+				"ship",
+				"ship_height"
+			],
+			[
+				"alien",
+				"alien_height"
+			],
+			[
+				"screen",
+				"screen_rect"
+			],
+			[
+				"_up",
+				"_update_bullets"
+			],
+			[
+				"K_",
+				"K_DOWN"
+			],
+			[
+				"moving",
+				"moving_up"
+			],
+			[
+				"pswd",
+				"pswd"
+			],
+			[
+				"pa",
+				"passenger"
+			],
+			[
+				"valid",
+				"valid_passports"
+			],
+			[
+				"passpor",
+				"passport_info"
+			],
+			[
+				"tree",
+				"tree_counters"
+			],
+			[
+				"run",
+				"run_game"
+			],
+			[
+				"if",
+				"ifmain\tif __name__ == '__main__'"
+			],
+			[
+				"emp",
+				"empolyee1"
+			],
+			[
+				"Empol",
+				"Employee"
+			],
+			[
+				"city",
+				"city_country_format"
+			],
+			[
+				"form",
+				"formatted_name"
+			],
+			[
+				"flie",
+				"file_object"
+			],
+			[
+				"file",
+				"file_object"
+			],
+			[
+				"City",
+				"City"
+			],
+			[
+				"max",
+				"max_use_words"
+			],
+			[
+				"lett",
+				"letters_in_name_better"
+			],
+			[
+				"letter",
+				"letter_counter"
+			],
+			[
+				"key",
+				"key_of_min"
+			],
+			[
+				"sa",
+				"sampleDict"
+			],
+			[
+				"jobs",
+				"jobs_and_saleries"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "button_update_button.py",
+			"settings":
+			{
+				"buffer_size": 6633,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Sudoku/sudoku_solver.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Sudoku/just_sudoku.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/my_club/myclub_website/events/urls.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/my_club/myclub_website/events/templates/events/navbar.html",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/my_club/myclub_website/events/views.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/my_club/myclub_website/events/templates/events/base.html",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/my_club/myclub_website/events/templates/events/home.html",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/my_club/myclub_website/events/templates/home.html",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/my_club/myclub_website/myclub_website/settings.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/my_club/myclub_website/myclub_website/urls.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Django/my_club/myclub_website/events/urls.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Django/my_club/myclub_website/events/views.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Django/my_club/myclub_website/events/templates/home.html",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Django/my_club/myclub_website/myclub_website/urls.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Django/my_club/myclub_website/myclub_website/settings.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Bananagrams/Learning Tkinter/new_window_tkinter.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Bananagrams/Learning Tkinter/databases_tkinter.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Bananagrams/Learning Tkinter/calc_tkinter.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Bananagrams/banagams.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Bananagrams/Learning Tkinter/dropdown_tkinter.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Bananagrams/Learning Tkinter/checkboxes_tkinter.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Bananagrams/Learning Tkinter/sliders_tkinter.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Bananagrams/Learning Tkinter/image_viewer.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Bananagrams/Learning Tkinter/frame_tkinter.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Bananagrams/Learning Tkinter/message_tkinter.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Bananagrams/Learning Tkinter/file_dialog_tkinter.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Bananagrams/drag_tkinter.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Bananagrams/frame_tkinter.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Bananagrams/radio_tkinter.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Bananagrams/grid_tkinter.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Bananagrams/icons_tkinter.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Bananagrams/image_viewer.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Bananagrams/status_bar_tkinter.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Bananagrams/drag_tkinter",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Bananagrams/banagams",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Bananagrams/learn_tkinter.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Bananagrams/buttons_tkinter.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Bananagrams/input_fields_tkinter.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Bananagrams/calc_tkinter.py",
+		"/C/Users/codyj/OneDrive/Documents/GitHub/codyjamesbrooks.github.io/project/04.html",
+		"/C/Users/codyj/OneDrive/Documents/GitHub/codyjamesbrooks.github.io/project/03.html",
+		"/C/Users/codyj/OneDrive/Documents/GitHub/codyjamesbrooks.github.io/project/02.html",
+		"/C/Users/codyj/OneDrive/Documents/GitHub/codyjamesbrooks.github.io/project/01.html",
+		"/C/Users/codyj/OneDrive/Documents/GitHub/codyjamesbrooks.github.io/project.html",
+		"/C/Users/codyj/OneDrive/Documents/GitHub/codyjamesbrooks.github.io/generic.html",
+		"/C/Users/codyj/OneDrive/Documents/GitHub/codyjamesbrooks.github.io/index.html",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Calculator/calc.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/War/war.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/dream_alive/portfolio/tests.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/dream_alive/Procfile",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/dream_alive/config/settings.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/dream_alive/templates/contact.html",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/dream_alive/templates/base.html",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/dream_alive/templates/home.html",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/dream_alive/portfolio/views.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/dream_alive/static/css/base.css",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/dream_alive/portfolio/urls.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/dream_alive/templates/services.html",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/dream_alive/templates/questions.html",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/dream_alive/templates/about.html",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/dream_alive/templates/portfolio.html",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Mad Libs Generator/mad_lib.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/War/wartest.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/dream_alive/config/urls.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/news/templates/base.html",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/news/pages/tests.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/news/pages/views.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/news/pages/urls.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/news/accounts/forms.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/news/accounts/urls.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/news/config/settings.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/news/accounts/models.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/news/accounts/views.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/news/config/urls.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/news/accounts/admin.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/news/templates/home.html",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/news/templates/registration/login.html",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/news/templates/registration/signup.html",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/blog/accounts/views.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/blog/accounts/urls.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/blog/config/settings.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/blog/Procfile",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/blog/templates/registration/signup.html",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/blog/templates/base.html",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/blog/config/urls.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/blog/templates/post_delete.html",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/blog/blog/urls.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/blog/templates/registration/login.html",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/blog/blog/views.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/blog/blog/tests.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/blog/blog/models.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/blog/templates/post_edit.html",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/blog/templates/post_new.html",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/blog/templates/post_detail.html",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/blog/templates/home.html",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/blog/static/css/base.css",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/blog/blog/admin.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/mb/config/settings.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/mb/Procfile",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/mb/posts/models.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/mb/posts/admin.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/mb/posts/tests.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/mb/templates/home.html",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/mb/posts/urls.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/mb/config/urls.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/mb/posts/views.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/pages-app/pages/pages/views.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/pages-app/pages/templates/about.html",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/pages-app/pages/templates/home.html",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/pages-app/pages/config/settings.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/pages-app/pages/templates/base.html",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/pages-app/pages/pages/tests.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/pages-app/pages/pages/Procfile",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/pages-app/pages/config/urls.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/pages-app/pages/pages/urls.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/hello-world/helloworld/config/urls.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/hello-world/helloworld/pages/urls.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/hello-world/helloworld/pages/views.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/hello-world/helloworld/config/settings.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/helloworld/config/settings.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/helloworld/pages/urls.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/helloworld/pages/views.py",
+		"/C/Users/codyj/OneDrive/Documents/Django/django/helloworld/config/urls.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Plagiarism Checker/brickset-scraper/scraper.py",
+		"/C/Users/codyj/OneDrive/Documents/GitHub/Tic-Tac-Toe/TTT.py",
+		"/C/Users/codyj/OneDrive/Desktop/Python Projects/Mad Libs Generator/Mad Lib Generator",
+		"/C/Users/codyj/OneDrive/Documents/GitHub/codyjamesbrooks.github.io/project/05.html",
+		"/C/Users/codyj/OneDrive/Desktop/GA_Python/Python Pratice/Python Crash Course/Alien Invasion/alien_invasion.py"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			", height=3, width=7)",
+			"check_entry",
+			"number_input(",
+			"game",
+			"\"#\", height=3, width=7)",
+			" = tk.Button(game, text=\"X\", command=\"#\", height=3, width=5)",
+			"padx=(0,1))",
+			"command=\"#\", height=5, width=5)",
+			" = tk.Button(game, text=\"X\", command=\"#\")",
+			"button0",
+			"self.puzzle[1][",
+			"self.sq1",
+			"grid.row",
+			"grid.sq0",
+			"grid.sq6",
+			"grid.sq1",
+			"gird.sq0",
+			"grid.sq0",
+			"self.row",
+			"self.sq8",
+			"self.puzzle[7",
+			"self.sq7",
+			".puzzle[6",
+			"self.sq6",
+			"self.puzzle[5",
+			"self.sq5",
+			"puzzle[4",
+			"self.sq4",
+			"puzzle[2",
+			"self.sq3",
+			"puzzle[2]",
+			"self.sq2",
+			"0 = self.puzzle[0][",
+			"[0][0]",
+			"sq00",
+			"frame1",
+			"my_label",
+			"padx=1, pady=1, ",
+			"self.root",
+			"frame1",
+			"frame2",
+			"ImageTk.PhotoImage(",
+			"ImageTk.PhotoImage",
+			"\"#\"",
+			"#",
+			"self",
+			"self.calculator",
+			"button_add",
+			"height=4",
+			"width=4",
+			"10",
+			"pady",
+			"height",
+			"padx",
+			"col",
+			"{\ncol",
+			"{\n",
+			"mail",
+			"git",
+			"gener",
+			"gen",
+			"5",
+			"center",
+			":\n",
+			"])\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			", height=3, width=7, state=tk.DISABLED)",
+			"check_puzzle",
+			"number_input(button, ",
+			"root",
+			"lambda: assign_number(0, 0), height=3, width=7)",
+			".grid(row=2, column=5)",
+			".grid(row=2, column=4)",
+			".grid(row=2, column=3)",
+			".grid(row=1, column=5)",
+			".grid(row=1, column=4)",
+			".grid(row=1, column=3)",
+			".grid(row=0, column=5)",
+			".grid(row=0, column=3)",
+			"padx=(0,2))",
+			"command=\"#\", height=3, width=5)",
+			" = tk.Button(game, text=\"X\", command=\"#\", height=5, width=5)",
+			".grid(row=, column=)",
+			"button2",
+			"button1",
+			"self.puzzle[0][",
+			"self.sq0",
+			"grid.local",
+			"grid.col",
+			"grid.sq8",
+			"grid.sq7",
+			"grid.sq6",
+			"grid.sq5",
+			"grid.sq4",
+			"grid.sq3",
+			"grid.sq2",
+			"grid.sq1",
+			"grid.sq8",
+			"grid.sq7",
+			"grid.sq",
+			"grid.sq6",
+			"grid.sq5",
+			"grid.sq4",
+			"grid.sq3",
+			"grid.sq2",
+			"grid.sq1",
+			"grid.sq0",
+			"self.col",
+			"self.row0",
+			"self.puzzle[8",
+			"self.sq8",
+			".puzzle[7",
+			"self.sq7",
+			"self.puzzle[6",
+			"self.sq6",
+			"puzzle[5",
+			"self.sq5",
+			"puzzle[4",
+			"self.sq4",
+			"puzzle[3]",
+			"self.sq3",
+			"2 = self.puzzle[2][",
+			"[1][]",
+			"sq10",
+			"frame2",
+			"hor_label",
+			"\"\"",
+			"opening_frame",
+			"fame3",
+			"fame2",
+			"",
+			"lambda: button_click(3)",
+			"lambda: button_click(7)",
+			"lambda: button_click(9)",
+			"lambda: button_click(6)",
+			"lambda: button_click(.)",
+			"lambda: button_click(8)",
+			"lambda: button_click(5)",
+			"lambda: button_click(2)",
+			"lambda: button_click(0)",
+			"lambda: button_click(4)",
+			"lambda: button_click(2)",
+			"calculator",
+			"button_click",
+			"height=3",
+			"width=6",
+			"4",
+			"height",
+			"width",
+			"height",
+			"column"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "button_update_button.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6633,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3622,
+								3622
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1214.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "just_sudoku.sublime-project",
+	"replace":
+	{
+		"height": 70.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 69.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"resize_image"
+			]
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 160.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
